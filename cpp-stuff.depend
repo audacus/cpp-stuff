@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1467988914 source:h:\workspace\cpp-stuff\main.cpp
+1467989326 source:h:\workspace\cpp-stuff\main.cpp
 	<iostream>
-	<Person.h>
+	<Man.h>
 
 1467989044 source:h:\workspace\cpp-stuff\src\person.cpp
 	"Person.h"
 
-1467989026 h:\workspace\cpp-stuff\include\person.h
+1467989378 h:\workspace\cpp-stuff\include\person.h
 	<iostream>
 	<string>
 

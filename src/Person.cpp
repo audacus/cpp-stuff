@@ -10,10 +10,12 @@ Person::~Person()
     //dtor
 }
 
-string Person::getName() const {
+string Person::getName() const
+{
     return this->name;
 }
 
-ostream& operator<< (ostream& stream, const Person& person) {
+ostream& operator<< (ostream& stream, const Person& person)
+{
     return stream << person.getName();
 }
