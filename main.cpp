@@ -5,6 +5,8 @@ using namespace std;
 
 int main()
 {
-    cout << Man() << endl;
+    Man hans("Hans");
+    cout << Man() << " & " << hans << " are friends..." << endl << endl;
+    hans.doSomething();
     return 0;
 }

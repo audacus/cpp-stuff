@@ -1,11 +1,8 @@
 #include "Man.h"
 
-Man::Man(string name) : Person(name, "man")
-{
-    //ctor
-}
+Man::Man(string name): Person(name, "man") {}
 
-Man::~Man()
+void Man::doSomething(string intro)
 {
-    //dtor
+    cout << intro << this->getName() << endl;
 }

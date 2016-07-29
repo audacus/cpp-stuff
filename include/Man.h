@@ -3,16 +3,11 @@
 
 #include <Person.h>
 
-
 class Man : public Person
 {
     public:
-        Man(string name = "Hans");
-        virtual ~Man();
-
-    protected:
-
-    private:
+        Man(string name = "Bob");
+        virtual void doSomething(string intro = "Hey hou! :D It's me ");
 };
 
 #endif // MAN_H
