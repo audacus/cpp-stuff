@@ -3,7 +3,6 @@
 
 # ignore clang output.
 *.dSYM
-*.vscode
 build/
 
 # OS specific
